@@ -15,7 +15,7 @@ multi-head attention, self-attention 적용 후 시간 순차성에 대한 정�
 <code>N-Linear</code> model은 마지막 값을 뺌과 더함을 통해 데이터의 분포 보존한다는 특징이 있다. 
 <br>
 데이터가 상승하거나 하락하는 추세를 지녔을 경우 학습 데이터의 평균과 분산으로 데이터를 정규화 시키면 평가 데이터에 분포 이동이 발생하게 된다. <br> 
-![화면 캡처 2023-08-21 134921](https://github.com/soyekwon/NLinear/assets/55877726/1711afa8-4533-406d-b62d-02f4c1a63964)
+![화면 캡처 2023-08-21 134921](https://github.com/soyekwon/NLinear/assets/55877726/1711afa8-4533-406d-b62d-02f4c1a63964) <br> 
 -> 학습된 모형의 예측 값은  위 그래프와 같이 학습 분포에서 크게 벗어나기 때문에 예측 성능이 하락 <br>
 
 ![화면 캡처 2023-08-21 135003](https://github.com/soyekwon/NLinear/assets/55877726/5efad9af-375a-4281-a8fb-a2be89cabf0f)
